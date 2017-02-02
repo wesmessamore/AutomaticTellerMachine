@@ -47,7 +47,7 @@ public class User {
                 System.out.println("Here's your ATM card back. Beat it.");
                 break;
             default:
-                throw new Exception("Invalid weapon!");
+                throw new Exception("Invalid choice!");
 
         }
     }
